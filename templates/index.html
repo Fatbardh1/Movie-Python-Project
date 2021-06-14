@@ -1,0 +1,20 @@
+<div class="back">
+{% extends 'base.html' %}
+{% block content %}
+    <h1>{% block title %} Movies And Chill {% endblock %}</h1>
+
+    {% for movie in movies %}
+        <a   href="{{ url_for('movie', movie_id=movie['moviesId']) }}">
+            <h2 >{{ movie['title'] }}</h2>
+        </a>
+
+
+
+        <span class="genre">{{ movie['genre'] }}</span>
+        <a href="{{ url_for('edit', movie_id=movie['moviesId']) }}">
+        <span class="edit">Edit</span>
+        </a>
+        <hr>
+
+{% endfor %}{% endblock %}
+</div>

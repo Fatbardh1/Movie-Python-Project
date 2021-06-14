@@ -1,0 +1,37 @@
+h1 {
+border: 5px #eee solid;
+color: black;
+text-align: center;
+padding: 10px;
+}
+
+
+
+a{
+color: #18193d;
+}
+
+.genre{
+font-size:20px;
+color:#4a0404;
+text-decoration: overline;
+font-weight: 900;
+}
+
+.edit{
+background-color: gray;
+color: white;
+font-size: 18px;
+}
+
+body {
+  background-color: #97b0ad;
+}
+
+h5 {
+  text-decoration: underline;
+}
+
+ul{
+font-size:30;
+}
